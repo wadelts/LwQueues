@@ -1,0 +1,12 @@
+This project defines classes for transferring messages to and from Queues.
+
+The entry points for using this project are the following classes:
+
+	OutputQueue				handles opening, putting to and closing a Queue.
+	InputQueue				handles opening, reading from and closing a Queue.
+
+	
+See the TestOutputQueue.java JUnit test case for an example of both object types.
+
+See the GeMHa project for example use of these classes, especially AcceptMessagesFromQueue.java and
+StoreMesssageToQueue.java.
